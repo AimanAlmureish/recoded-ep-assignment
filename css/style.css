@@ -113,6 +113,7 @@ nav ul li:nth-child(n+5){
   overflow: visible;
   z-index: 1;
   background-position: 0px 0px;
+  padding-bottom: 11em;
 
 
 }
@@ -127,7 +128,7 @@ nav ul li:nth-child(n+5){
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(58, 63, 69,0.8), rgba(58, 63, 69,0.8)), url(../images/hotel3.jpg);
   width: 100%;
-  height: 100vh;
+  height: 132vh;
   z-index: -1;
   position: absolute;
 }
@@ -229,14 +230,73 @@ nav ul li:nth-child(n+5){
 /* start courses section */
 
 #courses{
+top: -53px;
+position: relative;
+z-index: 1;
 
 }
 
-.course-details{
+#courses:before{
+  background-color: #7971ea;
+  top: -53px;
+  position: relative;
+  z-index: -1;
+  content: "";
+  height: 61vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 
 }
 
+.heading-white h3{
+  text-align: center;
+  color: white;
+  font-size: 3vw;
+  font-weight: 800;
+  padding: 75px 0px;
+  padding-bottom: 173px;
+}
+
+.heading-black h3{
+  text-align: center;
+  color: black;
+  font-size: 3vw;
+  font-weight: 800;
+  padding: 75px 0px;
+  padding-bottom: 173px;
+}
+
 .course-details{
+  width: 31.3333%;
+  float: right;
+  position: relative;
+  right: -22px;
+  margin: 10px;
+  transition: all .4s ease;
+  z-index: 1;
+
+
+}
+
+.course-details:hover{
+  width: 31.3333%;
+  float: right;
+  position: relative;
+  right: -22px;
+  box-shadow: 0px 0px 5px 0px #aba4a4;
+  margin: 10px;
+  transition: all .4s ease;
+  z-index: 1;
+
+}
+
+.whole-courses {
+  margin: 93px;
+  position: relative;
+  top: -156px;
+
 
 }
 
@@ -245,21 +305,202 @@ nav ul li:nth-child(n+5){
 }
 
 .course-img img{
-
+  width: 100%;
 }
 
 .course-text{
+  margin: 18px;
+
+
+}
+
+.course-text h3{
+  color: #7971ea;
+  font-weight: 100;
+  font-size: 1.6vw;
 
 }
 
 .course-text p{
+  color: #8e8c87cf;
+  font-size: 1.2vw;
+  padding: 18px 0px;
+}
 
+.course-text span{
+  color: #8e8c87cf;
+      font-size: 1.2vw;
+      padding: 18px 0px;
+      float: left;
+      display: inline-block;
+      position: relative;
+      padding-left: 5px;
 }
 
 .details{
 
+  position: relative;
+  width: 80%;
+  top: -22px;
+
+}
+
+.details-bottom{
+  position: relative;
+  width: 80%;
+  top: -22px;
+
+}
+
+.details-right{
+  top: -22px;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: #a3a29e5e;
 }
 
 .course-text a{
+  position: relative;
+      transition: all 1s ease;
+      text-decoration: none;
+      color: white;
+      background-color: rgb(121, 113, 234);
+      border-radius: 5px;
+      padding: 14px;
+      padding-right: 13px;
+      padding-left: 13px;
+      font-size: 1.3vw;
+      font-weight: 100;
+      top: -22px;
+      left: 247px;
+      width: 50px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
 
+}
+
+.course-text a:hover{
+  position: relative;
+  transition: all 1s ease;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(121, 113, 234);
+  border-radius: 5px;
+  padding: 14px;
+  padding-right: 13px;
+  padding-left: 13px;
+  font-size: 1.3vw;
+  font-weight: 100;
+  top: -22px;
+  left: 247px;
+  width: 50px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+}
+
+.full-details{
+  border-top-style: solid;
+  padding-top: 21px;
+  border-top-color: #a3a29e5e;
+  border-top-width: 1px;
+  width: 113%;
+  display: inline-block;
+  position: relative;
+  right: 18px;
+  top: -21px;
+  margin-bottom: -66px;
+
+}
+
+
+
+i[name="comment"]{
+  padding-right: 4px;
+  padding-left: 12px;
+}
+
+.prev-next a{
+  position: relative;
+      transition: all 1s ease;
+      text-decoration: none;
+      color: white;
+      background-color: rgb(121, 113, 234);
+      border-radius: 5px;
+      padding: 14px;
+      padding-right: 27px;
+      padding-left: 27px;
+      font-size: 1.2vw;
+      font-weight: 100;
+      top: 50%;
+      left: 50%;
+      width: 50px;
+}
+.prev-next a:hover{
+  position: relative;
+  transition: all 1s ease;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(121, 113, 234);
+  border-radius: 5px;
+  padding: 14px;
+  padding-right: 27px;
+  padding-left: 27px;
+  font-size: 1.32vw;
+  font-weight: 100;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+}
+
+.prev-next{
+  position: relative;
+  top: 58px;
+  right: 66px;
+
+}
+
+/* strart programs */
+
+#programs{
+
+}
+
+#programs article p{
+  color: #8e8c87cf;
+  text-align: center;
+  width: 50%;
+  position: relative;
+  top: -153px;
+  right: -25%;
+
+
+}
+
+.programs-img{
+  width:50%
+}
+
+.programs-img img{
+  width:100%;
+}
+
+.programs-text{
+  width: 41%;
+  float: right;
+  position: relative;
+  top: -304px;
+}
+
+.programs-para{
+  width: 68%;
+  color: #8e8c87cf;
+  font-size: 1.2em;
+  font-weight: 100;
+
+}
+
+.programs-text h3{
+  font-size: 2vw;
+  font-weight: 100;
 }
