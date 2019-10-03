@@ -478,7 +478,7 @@ i[name="comment"]{
 }
 
 .programs-img{
-  width:50%
+  width: 55%;
 }
 
 .programs-img img{
@@ -487,10 +487,12 @@ i[name="comment"]{
 
 .programs-text{
   width: 41%;
-  float: right;
-  position: relative;
-  top: -304px;
+      float: right;
+      position: relative;
+      top: -377px;
+      right: -28px;
 }
+
 
 .programs-para{
   width: 68%;
@@ -503,4 +505,24 @@ i[name="comment"]{
 .programs-text h3{
   font-size: 2vw;
   font-weight: 100;
+}
+
+.grads{
+  color: #7971ea;
+    font-size: 1.2vw;
+    position: relative;
+    top: 31px;
+    padding-bottom: 17px;
+
+
+}
+
+.programs-text i{
+  background-color: #7971ea;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+      font-size: .8vw;
+
+
 }
