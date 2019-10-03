@@ -158,7 +158,7 @@ nav ul li:nth-child(n+5){
 
 }
 
-.portrait-text a, .portrait-sign a {
+.portrait-text a {
   position: relative;
   transition: all 1s ease;
   text-decoration: none;
@@ -168,6 +168,21 @@ nav ul li:nth-child(n+5){
   padding: 18px;
   padding-right: 37px;
   padding-left: 37px;
+  font-size: .9vw;
+  font-weight: 700;
+  top: 11px;
+}
+
+.portrait-sign a {
+  position: relative;
+  transition: all 1s ease;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(121, 113, 234);
+  border-radius: 27px;
+  padding: 18px;
+  padding-right: 30px;
+  padding-left: 30px;
   font-size: .9vw;
   font-weight: 700;
   top: 11px;
