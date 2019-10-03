@@ -201,6 +201,10 @@ nav ul li:nth-child(n+5){
   width: 24vw;
   margin-bottom: 11px;
   color: #32363a;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #c3bdbd;
+  border-width: 1px;
 }
 
 /* .portrait-sign form input:nth-child(n+3){
@@ -242,5 +246,5 @@ nav ul li:nth-child(n+5){
 }
 
 .course-text a{
-  
+
 }
