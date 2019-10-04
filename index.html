@@ -42,15 +42,34 @@ textarea{
   right: 21px;
 
 }
+header{
+  position: fixed;
+  z-index: 999;
+
+}
+
+
 
 </style>
+
+<script type="text/javascript">
+window.onscroll = () => {
+  const nav = document.querySelector('#whole-nav');
+  if(this.scrollY >= 100) nav.className = 'whole-nav'; else nav.className = 'scroll';
+};
+
+</script>
+
+
+
+
   </head>
   <body>
     <!-- start the portrait section-->
     <section id="portrait">
       <div class="container">
         <div class="row">
-          <div class="col-md-">
+          <div id="whole-nav">
             <header>
               <div class="logo">
                 <a href="https://www.re-coded.com">Re:Coded</a>
@@ -67,6 +86,7 @@ textarea{
                 </nav>
               </div>
             </header>
+          </div>
             <div class="portrait-text">
               <h1>Learn From John Doe</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
@@ -81,7 +101,6 @@ textarea{
                 <a href="#">SIGN UP</a>
               </form>
             </div>
-          </div>
         </div>
       </div>
     </section>
@@ -438,6 +457,9 @@ textarea{
       </footer>
     </section>
     <!-- end the footer section-->
+
+
+
 
 
   </body>

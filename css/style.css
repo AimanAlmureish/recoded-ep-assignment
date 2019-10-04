@@ -18,7 +18,6 @@ body{
 #navbar{
   background-color: transparent;
   z-index: 1000;
-  position: relative;
 
 }
 
@@ -26,7 +25,9 @@ body{
   float: right;
   position: relative;
   top: 19px;
-  right: 48px;
+  right: -50em;
+  z-index: 99999;
+
 }
 
 .logo{
@@ -34,18 +35,45 @@ body{
   margin: 53px;
   position: relative;
   top: 27px;
+  z-index: 1000;
 }
 
 .logo a{
   text-decoration: none;
-  color: white;
   font-weight: 900;
   font-size: 1.5vw;
+  color: white;
+
 
 }
 
+
 .navbar nav ul{
   list-style: none;
+
+
+}
+#whole-nav{
+  background-color: #363a3f;
+  width: 100%;
+  position: fixed;
+  z-index: 998;
+  height: 25vh;
+  transition: all 1s ease;
+  transform: scale(.9);
+  border-radius: 9px;
+
+}
+
+#whole-nav.scroll{
+  background-color: transparent;
+  width: 100%;
+  position: fixed;
+  z-index: 998;
+  height: 25vh;
+  transition: all 1s ease;
+  transform: scale(1);
+
 
 }
 
@@ -128,7 +156,7 @@ nav ul li:nth-child(n+5){
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(58, 63, 69,0.8), rgba(58, 63, 69,0.8)), url(../images/hotel3.jpg);
   width: 100%;
-  height: 132vh;
+  height: 128vh;
   z-index: -1;
   position: absolute;
 }
@@ -142,7 +170,7 @@ nav ul li:nth-child(n+5){
 .portrait-text{
   width: 50%;
   position: relative;
-  top: 184px;
+  top: 306px;
   right: -120px;
 }
 
@@ -196,7 +224,7 @@ nav ul li:nth-child(n+5){
   border-radius: 9px;
   position: relative;
   right: 11%;
-  top: -46px;
+  top: 60px;
   padding-bottom: 5em;
 
 }
@@ -229,9 +257,9 @@ nav ul li:nth-child(n+5){
 /* start courses section */
 
 #courses{
-top: -53px;
-position: relative;
-z-index: 1;
+  top: -53px;
+  position: relative;
+  z-index: -1;
 
 }
 
