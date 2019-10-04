@@ -136,8 +136,7 @@ nav ul li:nth-child(n+5){
 .clearfix{
   content:"";
   clear: both;
-  padding-top: 1em;
-  padding-bottom: 1em;
+
 }
 
 .portrait-text{
@@ -268,6 +267,17 @@ z-index: 1;
   padding-bottom: 173px;
 }
 
+.heading-black-left h3{
+  text-align: left;
+  color: black;
+  font-size: 3vw;
+  font-weight: 800;
+  padding: 62px 0px;
+  padding-bottom: 10px;
+
+}
+
+
 .course-details{
   width: 31.3333%;
   float: right;
@@ -372,7 +382,7 @@ z-index: 1;
       font-size: 1.3vw;
       font-weight: 100;
       top: -22px;
-      left: 247px;
+      left: 265px;
       width: 50px;
       border-top-right-radius: 0px;
       border-bottom-right-radius: 0px;
@@ -392,7 +402,8 @@ z-index: 1;
   font-size: 1.3vw;
   font-weight: 100;
   top: -22px;
-  left: 247px;
+  left: 265px;
+  font-size: 1vw;
   width: 50px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
@@ -464,6 +475,7 @@ i[name="comment"]{
 
 #programs{
 
+
 }
 
 #programs article p{
@@ -525,4 +537,366 @@ i[name="comment"]{
       font-size: .8vw;
 
 
+}
+
+
+/* start teachers section */
+
+
+
+.teachers-img{
+
+}
+
+.teachers-img img{
+  width: 46%;
+  clip-path: circle(47% at 49% 47%);
+  position: relative;
+  top: -87px;
+  right: -85px;
+}
+
+.teachers-details{
+  width: 26.3333%;
+      float: right;
+      position: relative;
+      right: 38px;
+      margin: 28px;
+      transition: all .4s ease;
+      z-index: 1;
+      border-style: solid;
+      border-color: #8e8c87cf;
+      border-width: 1px;
+
+}
+
+.teachers-details:hover{
+  width: 26.3333%;
+  float: right;
+  position: relative;
+  right: 38px;
+  box-shadow: 0px 0px 5px 0px #aba4a4;
+  margin: 28px;
+  transition: all .4s ease;
+  z-index: 1;
+
+}
+
+.teachers-text h1{
+  text-align: center;
+  font-size: 1.8vw;
+  font-weight: 100;
+  position: relative;
+  top: -149px;
+}
+
+
+.teachers-text h3{
+  text-align: center;
+  top: -167px;
+  position: relative;
+  font-size: 1.3vw;
+  font-weight: 100;
+  color: #8e8c87cf;
+}
+
+
+.teachers-text p{
+  text-align: center;
+  position: relative;
+  top: -164px;
+  width: 77%;
+  right: -40px;
+  font-weight: 100;
+  font-size: 1.4vw;
+  color: #8e8c87;
+  line-height: 1.5;
+
+}
+
+.teachers-text{
+  height: 25vh;
+  position: relative;
+  top: 62px;
+
+}
+
+
+/* start testimonies section */
+
+#testimonies{
+  background-color: #4c4c4c;
+
+}
+
+.test-img{
+
+}
+
+
+.test-img img{
+  width: 18%;
+  clip-path: circle(47% at 49% 47%);
+  position: relative;
+  top: 60px;
+  left: 493px;
+
+}
+
+.test-text{
+  margin: 80px;
+    position: relative;
+    left: -13px;
+    text-align: center;
+    padding-bottom: 4em;
+
+}
+
+.test-text p{
+  color: white;
+  font-style: italic;
+  line-height: 2;
+  font-size: 1.4vw;
+  font-weight: 100;
+
+
+}
+
+.test-text h3{
+  color: white;
+  font-size: 1.3vw;
+  font-weight: 100;
+
+}
+
+
+/* start features */
+
+#brief{
+  background-image: url(../images/blob_1.svg), url(../images/blob_2.svg);
+  background-repeat: no-repeat;
+  background-position: 115% 4%, -25% 93%;
+  height: 180vh;
+
+}
+
+.brief-img{
+  width: 100%;
+
+}
+
+.brief-img img{
+  width: 50%;
+  float: right;
+  top: -29em;
+  position: relative;
+
+}
+
+.brief-text i{
+  background-color: #7971ea;
+  color: white;
+  padding: 17px;
+  border-radius: 50%;
+  font-size: .8vw;
+}
+
+.brief-text{
+  background-color: white;
+      width: 31%;
+      position: relative;
+      top: 15px;
+      left: 145px;
+      padding: 30px;
+      box-shadow: 0px 0px 23px 0px #808080b0;
+}
+
+.brief-text p{
+  font-size: 1.3vw;
+  margin: 4px;
+  padding-bottom: 37px;
+}
+
+/* start contact us */
+#contact-us{
+  background-color: whitesmoke;
+}
+
+.why-us{
+  position: relative;
+  left: 25%;
+  width: 50%;
+
+}
+
+.why-us p{
+  width: 100%;
+
+}
+
+.contact-form{
+  width: 50%;
+    position: relative;
+    left: 25%;
+    padding-top: 1em;
+    padding-bottom: 4em;
+
+}
+
+.contact-form a{
+  position: relative;
+      transition: all 1s ease;
+      text-decoration: none;
+      color: white;
+      background-color: rgb(121, 113, 234);
+      border-radius: 21px;
+      padding: 14px;
+      padding-right: 60px;
+      padding-left: 60px;
+      font-size: 1.2vw;
+      font-weight: 100;
+      top: 23px;
+      left: 0%;
+      width: 50px;
+}
+.contact-formt a:hover{
+  position: relative;
+  transition: all 1s ease;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(121, 113, 234);
+  border-radius: 21px;
+  padding: 14px;
+  padding-right: 60px;
+  padding-left: 60px;
+  font-size: 1.32vw;
+  font-weight: 100;
+  top: 23px;
+  left: 0%;
+  width: 50px;
+}
+
+
+
+/* start footer section */
+
+#footer{
+  display: inline-block;
+  padding-bottom: 6em;
+
+
+}
+
+.footer-intro{
+  float: left;
+  width: 33.3333%;
+
+}
+
+.footer-intro h3 {
+    font-size: 1.7vw;
+    font-weight: 800;
+}
+
+.footer-links{
+  float: left;
+  width: 33.3333%;
+  position: relative;
+  right: -45px;
+
+}
+
+.footer-links h3{
+  font-size: 1.7vw;
+  font-weight: 800;
+}
+
+
+.footer-links ul{
+  list-style: none;
+
+}
+
+.footer-links ul a{
+  text-decoration: none;
+  color: #7971ea;
+
+}
+
+
+.footer-links ul a li{
+  line-height: 40px;
+font-size: 1.4vw;
+position: relative;
+right: 21px;
+
+}
+
+.subscribe{
+  float: left;
+  width: 33.3333%;
+
+
+}
+
+.subscribe h3{
+  font-size: 1.7vw;
+  font-weight: 800;
+}
+
+.whole-footer{
+  margin: 10%;
+  padding-bottom: 4em;
+}
+
+
+.subscribe a{
+  position: relative;
+  transition: all 1s ease;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(121, 113, 234);
+  border-radius: 0px;
+  padding: 13px;
+  padding-right: 24px;
+  padding-left: 24px;
+  font-size: 1vw;
+  font-weight: 100;
+  top: -5px;
+  left: 0%;
+  width: 50px;
+}
+
+
+.subscribe a:hover{
+  position: relative;
+  transition: all 1s ease;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(121, 113, 234);
+  border-radius: 0px;
+  padding: 13px;
+  padding-right: 24px;
+  padding-left: 24px;
+  font-size: 1vw;
+  font-weight: 100;
+  top: -5px;
+  left: 0%;
+  width: 50px;
+}
+
+.subscribe form{
+  position: relative;
+top: 57px;
+}
+
+.subscribe p{
+  position: relative;
+top: 19px;
+}
+
+.subscribe small{
+  color: #7971ea;
+  position: relative;
+  top: 54px;
 }
