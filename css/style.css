@@ -1064,7 +1064,7 @@ top: 19px;
   clip-path: circle(47% at 49% 47%);
   position: relative;
   top: 93px;
-  right: -101px;
+  right: -112px;
 }
 
 .teachers-aside-details{
@@ -1250,14 +1250,14 @@ figure{
 
 .comment-text a{
   position: relative;
-  top: 11em;
-  right: 41.8em;
-  background-color: lightgray;
-  padding: .8em;
-  text-decoration: none;
-  color: black;
-  padding-top: .7em;
-  padding-bottom: .7em;
+      top: 12em;
+      right: 45.8em;
+      background-color: lightgray;
+      padding: .8em;
+      text-decoration: none;
+      color: black;
+      padding-top: .7em;
+      padding-bottom: .7em;
 
 
 }
