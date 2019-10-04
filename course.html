@@ -3,63 +3,60 @@
   <head>
     <meta charset="utf-8">
     <title>Re:Coded Landing Page</title>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script type="text/javascript">
+    window.onscroll = () => {
+      const nav = document.querySelector('#whole-nav');
+      if(this.scrollY >= 100) nav.className = 'whole-nav'; else nav.className = 'scroll';
+    };
+
+    </script>
+
   </head>
   <body>
 
-    <!-- start the nav section-->
-    <section id="navbar">
-      <header>
-        <div class="logo">
-          <a href="https://www.re-coded.com">Re:Coded</a>
-        </div>
-        <div class="navbar">
-          <nav>
-            <ul>
-              <a href="#"><li>Home</li></a>
-              <a href="#"><li>Courses</li></a>
-              <a href="#"><li>Programs</li></a>
-              <a href="#"><li>Teachers</li></a>
-              <a href="#"><li>Contact Us</li></a>
-            </ul>
-          </nav>
-        </div>
-      </header>
-    </section>
-    <!-- end the nav section-->
-
-
-  <!--  <section id="portrait">
+    <!-- start the portrait section-->
+    <section id="portrait">
       <div class="container">
         <div class="row">
-          <div class="col-md-">
-            <div class="portrait-text">
-              <h1>Learn From John Doe</h1>
-              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span><br><br>
-              <a href="#">Admission Now</a><br><br>
-            </div>
-            <div class="portrait-sign">
-              <h3>Sign Up</h3>
-              <form class="" action="index.html" method="post">
-                <input type="email" name="email" value="" placeholder="Type Your Email" required><br>
-                <input type="password" name="password" value="" placeholder="Type Your Password" required><br>
-                <input type="password" name="password" value="" placeholder="Type Your Password" required><br>
-                <input type="submit" value="Sign Up">
-              </form>
-            </div>
+          <div id="whole-nav">
+            <header>
+              <div class="logo">
+                <a href="https://www.re-coded.com">Re:Coded</a>
+              </div>
+              <div class="navbar">
+                <nav>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">Teachers</a></li>
+                    <li class="contact-button"><a href="#">CONTACT US</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </header>
           </div>
+            <div class="portrait-text">
+              <h1>Logo Design Course</h1>
+              <p>4 lessons / 12 week / 3,333 students 6 comments</p>
+            </div>
         </div>
       </div>
-    </section> -->
+    </section>
+
+
 
     <!-- start the portrait section-->
     <section id="courses-head">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h1>Logo Design Course</h1>
           </div>
           <div class="col-md-6">
-            <span>4 lessons / 12 week / 3,333 students <a href="#">6 comments</a> </span>
           </div>
         </div>
       </div>
@@ -358,42 +355,46 @@
     <!-- end the courses section-->
 
 
-    <!-- start the footer section-->
-    <section id="footer">
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="footer-intro">
-                <h3>About Re:Coded</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <!-- start the footer section-->
+        <section id="footer">
+          <footer>
+            <div class="container">
+              <div class="whole-footer">
+                <div class="col-md-12">
+                  <div class="footer-intro">
+                    <h3>ABOUT RE:CODED</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="footer-links">
+                    <h3>LINKS</h3>
+                    <ul>
+                      <a href="#"><li>Home</li></a>
+                      <a href="#"><li>Courses</li></a>
+                      <a href="#"><li>Programs</li></a>
+                      <a href="#"><li>Teachers</li></a>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="subscribe">
+                    <h3>SUBSCRIBE</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <form class="" action="index.html" method="post">
+                      <input type="text" name="" value="" placeholder="Subscribe Us">
+                    <a href="#">SUBSCRIBE</a>
+                     </form>
+                     <small style="">&copy 2019 Aiman All Rights Reserved</small>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="footer-links">
-                <ul>
-                  <a href="#"><li>Home</li></a>
-                  <a href="#"><li>Courses</li></a>
-                  <a href="#"><li>Programs</li></a>
-                  <a href="#"><li>Teachers</li></a>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="subscribe">
-                <h3>Subscribe</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                <form class="" action="index.html" method="post">
-                  <input type="text" name="" value="" placeholder="Subscribe Us">
-                  <input type="submit" name="" value="Submit">
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </section>
-    <!-- end the footer section-->
+          </footer>
+        </section>
+        <!-- end the footer section-->
+
 
 
   </body>
